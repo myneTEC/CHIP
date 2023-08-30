@@ -525,7 +525,7 @@ interface Compliance {
 contract CHIP is ERC20, ERC20Detailed, ERC20Mintable, ERC20Burnable, Ownable {
     uint constant private INITIAL_SUPPLY = 21000000000e18; // 21 Billion
     string constant public NAME = "CHIP Token";
-    string constant public SYMBOL = "CHIP";
+    string constant public SYMBOL = "CHIP"; //managed via "BanzaiBTC"
     uint8 constant public DECIMALS = 18;
 
     address constant internal ZERO_ADDRESS = address(0);
